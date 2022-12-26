@@ -1,0 +1,47 @@
+.banner{
+    width: 100%;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+    z-index: -1;
+    margin-bottom: -200px;
+}
+
+/*css cho phần banner của sản phẩm*/
+.banner-product {
+    padding:30px;
+}
+.banner-product-image { 
+    max-width: 100%;
+}
+.btn-readmore { 
+    display: inline-block;
+    padding:7px 15px;
+    border-radius: 8px;
+    background-image: linear-gradient(to right, #FFCE00 50%, #FFCE00 50%, #FE4880);
+    color: white;
+    width: 40%;
+    font-weight:500;
+    background-size: 200%;
+    background-position: 0%;
+    font-size: 1rem;
+    margin-top: 15px;
+    text-align:center;
+    border: none;
+    transition: all 0.4s;
+}
+.readmore {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+}
+.btn-readmore:hover {
+    background-position: 100% 0%;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.banner-img { 
+    padding: 30px;
+}
+.banner-img-product {
+    max-width: 100%;
+}

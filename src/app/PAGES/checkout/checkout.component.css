@@ -1,0 +1,26 @@
+.checkout{
+    background:none;
+    display: flex;
+    /* margin: 20px; */
+    width: 100%;
+    padding: 30px;
+    /* min-height: 400px; */
+    
+ 
+}
+.checkout_left{
+    flex: 1;
+}
+.checkout_empty{
+    margin: 20px 20px 400px 20px ;
+}
+.checkout_right{
+justify-content: flex-end;
+margin-left: 20px;
+}
+.cart-title {
+    font-size:26px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:#FFCE00;
+}

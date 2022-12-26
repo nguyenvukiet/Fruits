@@ -1,0 +1,11 @@
+<div class="subtotal" *ngIf="shoppingCart.getCartLength() > 0">
+    <p>Tổng cộng: ({{shoppingCart.getCartLength()}} sản phẩm) 
+        <strong>${{shoppingCart.getTotal()}}</strong></p>
+        <div class="subtotal_gift">
+            <input type="checkbox"/>
+           <p>This order contains a gift</p> 
+        </div>
+        <button>Thanh toán</button>
+
+
+</div>

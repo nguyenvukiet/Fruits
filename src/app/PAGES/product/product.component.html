@@ -1,0 +1,25 @@
+<div id="product" class="product">
+    <h1 class="product-title">Sản phẩm</h1>
+    <!--filter sản phẩm-->
+    <div class="product-filter">
+      <form>
+        <label for="gia">Giá:</label>
+        <select name="gia" id="gia">
+          <option value="thapdencao">Thấp đến cao</option>
+          <option value="caodenthap">Cao đến thấp</option>
+        </select>
+        <label for="tensp">Tên:</label>
+        <select name="tensp" id="tensp">
+          <option value="az">A-Z</option>
+          <option value="za">Z-A</option>
+        </select>
+        <input class="btn-loc" type="submit" value="Lọc" />
+      </form>
+    </div>
+    <!--end filter sản phẩm-->
+  
+    <!--Phần sản phẩm-->
+    <app-products [products] ="items"></app-products>
+    <!--End Phần sản phẩm-->
+  </div>
+  

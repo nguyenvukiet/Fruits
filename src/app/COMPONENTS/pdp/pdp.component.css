@@ -1,0 +1,48 @@
+.pdp {
+    padding: 40px 30px;
+}
+.img-pdp {
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 80%;
+}
+.name-product {
+    font-size:30px;
+    font-weight: 600;
+    color: #FFCE00;
+}
+.price-product {
+    font-size:26px;
+    font-weight: 600;
+    color:  #FE4880;
+}
+.input-number {
+    width: 50px;
+}
+
+.info-product>li {
+    font-size: 16px;
+    line-height: 32px;
+}
+.btn-addtocart {
+    display: block;
+    padding:10px 15px;
+    border-radius: 8px;
+    background-image: linear-gradient(to right, #FFCE00 50%, #FFCE00 50%, #FE4880);
+    color: white;
+    width: 100%;
+    font-weight:600;
+    background-size: 200%;
+    background-position: 0%;
+    transition: 0.4s;
+    font-size: 1.5rem;
+    margin: 15px auto;
+    text-align:center;
+    border: none;
+    margin-top: 60px;
+}
+
+.btn-addtocart:hover {
+    background-position: 100% 0%;
+    cursor: pointer;
+}
